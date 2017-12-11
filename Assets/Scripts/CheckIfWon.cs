@@ -28,7 +28,7 @@ public class CheckIfWon : MonoBehaviour {
         }
         if(Input.GetKey(KeyCode.K))
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("TerrianFirstTemp");
         }
 		if(WinObjectNumber1Got == true && WinObjectNumber2Got == true)//If you have both objects then
         {

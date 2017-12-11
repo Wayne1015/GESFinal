@@ -648,6 +648,11 @@ Prefab:
       propertyPath: keyToSpawnIn
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114841349014347810, guid: 46b489802a3eae44592b15c7e75fc945,
+        type: 2}
+      propertyPath: descriptionText
+      value: Salvation Awaits
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
   m_IsPrefabParent: 0
@@ -1213,39 +1218,39 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 711071040}
+    m_TransformParent: {fileID: 1320374205}
     m_Modifications:
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.5548658
+      value: -191.11
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.419384
+      value: 149.21
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.134001
+      value: -62.04
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.70088744
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.09357799
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.093578
+      value: 0.000000007450581
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7008874
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4190443218395326, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
       propertyPath: m_LocalScale.y
@@ -30000,7 +30005,6 @@ Transform:
   - {fileID: 996925460}
   - {fileID: 1482537070}
   - {fileID: 1308081703}
-  - {fileID: 92027566}
   m_Father: {fileID: 1624748474}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34380,6 +34384,11 @@ Prefab:
       propertyPath: keyToSpawnIn
       value: 
       objectReference: {fileID: 389555044}
+    - target: {fileID: 114841349014347810, guid: 46b489802a3eae44592b15c7e75fc945,
+        type: 2}
+      propertyPath: descriptionText
+      value: When I left it behind... I knew the cost.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
   m_IsPrefabParent: 0
@@ -46052,6 +46061,12 @@ Prefab:
       propertyPath: nameText
       value: Note#3
       objectReference: {fileID: 0}
+    - target: {fileID: 114841349014347810, guid: 46b489802a3eae44592b15c7e75fc945,
+        type: 2}
+      propertyPath: descriptionText
+      value: In case you were around, At the time it became lost.... ha ha. I joke,
+        I kid! It won't be found,
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
   m_IsPrefabParent: 0
@@ -51449,6 +51464,12 @@ Prefab:
       propertyPath: nameText
       value: Note#2
       objectReference: {fileID: 0}
+    - target: {fileID: 114841349014347810, guid: 46b489802a3eae44592b15c7e75fc945,
+        type: 2}
+      propertyPath: descriptionText
+      value: For those who were wondering... Where I left my mind? I seem to have
+        lost it; pondering. Seems I left it far behind....
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}
   m_IsPrefabParent: 0
@@ -53446,6 +53467,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1485555981}
+  - {fileID: 92027566}
   m_Father: {fileID: 1624748474}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70447,6 +70469,12 @@ Prefab:
         type: 2}
       propertyPath: m_Intensity
       value: 6.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 114841349014347810, guid: 46b489802a3eae44592b15c7e75fc945,
+        type: 2}
+      propertyPath: descriptionText
+      value: This damn house keeps changing on me. Walls vanish when i'm not looking.
+        I just want to get out
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b489802a3eae44592b15c7e75fc945, type: 2}

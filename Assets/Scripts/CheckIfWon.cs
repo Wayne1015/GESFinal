@@ -21,6 +21,15 @@ public class CheckIfWon : MonoBehaviour {
     // Update is called once per frame
 
     void Update () {
+
+        if(Input.GetKey(KeyCode.L))
+        {
+            Application.Quit();
+        }
+        if(Input.GetKey(KeyCode.K))
+        {
+            SceneManager.LoadScene("Menu");
+        }
 		if(WinObjectNumber1Got == true && WinObjectNumber2Got == true)//If you have both objects then
         {
             //Display a new canvas to tell you that you won

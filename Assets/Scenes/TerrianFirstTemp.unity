@@ -83105,7 +83105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winCanvas: {fileID: 320425018}
-  fps: {fileID: 0}
+  fps: {fileID: 811550368}
   WinObjectNumber1Got: 0
   WinObjectNumber2Got: 0
   OnLvl2: 0

@@ -19,7 +19,8 @@ public class InventoryObject : MonoBehaviour, IActivatable
     [SerializeField]
     private GameObject keyToSpawnIn;
     private CheckIfWon checkIfWon;
-
+    [SerializeField]
+    private AudioSource pickUpSound;
     [SerializeField]
     public GameObject mysteriousStairs;
 
@@ -48,7 +49,9 @@ public class InventoryObject : MonoBehaviour, IActivatable
     public void DoActivate()
     {
         inventoryMenu.PlayerInventory.Add(this);
+        pickUpSound.Play();
         if (checkIfWon.OnLvl2 == false)
+            
         {
             if (this.transform.name == "Key#1")
             {
